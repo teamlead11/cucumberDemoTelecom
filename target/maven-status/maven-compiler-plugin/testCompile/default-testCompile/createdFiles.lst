@@ -5,7 +5,7 @@ objectrepository\AccessPage.class
 stepdefinition\AccessSteps.class
 objectrepository\AddCustomerPage.class
 objectrepository\AddTariffPlanPage.class
-stepdefinition\Runner2.class
 stepdefinition\TestRunner.class
 objectrepository\HomePage.class
 stepdefinition\HomePageSteps.class
+stepdefinition\TestRunner2.class
