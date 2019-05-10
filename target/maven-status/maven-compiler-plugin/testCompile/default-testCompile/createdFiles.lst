@@ -8,4 +8,3 @@ objectrepository\AddTariffPlanPage.class
 stepdefinition\TestRunner.class
 objectrepository\HomePage.class
 stepdefinition\HomePageSteps.class
-stepdefinition\TestRunner2.class

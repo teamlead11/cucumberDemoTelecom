@@ -18,10 +18,15 @@ public class Pagination {
 		driver = new ChromeDriver();
 		driver.get("https://www.google.co.in/");
 		driver.manage().window().maximize();
-		WebElement ele = driver.switchTo().activeElement();
-		System.out.println(ele.getAttribute("name"));
-		driver.findElement(By.name("q")).sendKeys("Selenium", Keys.ENTER);
-		goToPageNew("8");
+		/*
+		 * WebElement ele = driver.switchTo().activeElement();
+		 * System.out.println(ele.getAttribute("name"));
+		 */
+		/*
+		 * driver.findElement(By.name("q")).sendKeys("Selenium", Keys.ENTER);
+		 * goToPageNew("8");
+		 */
+		System.out.println(driver.switchTo().activeElement().getAttribute("name"));
 	}
 
 	public static void goToPage(String pageNum) {

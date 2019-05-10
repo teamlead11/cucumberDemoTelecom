@@ -8,6 +8,10 @@ import stepdefinition.Hook;
 
 public class AddTariffPlanPage {
 
+	public WebElement getSucessmsg() {
+		return sucessmsg;
+	}
+
 	public AddTariffPlanPage() {
 		PageFactory.initElements(Hook.driver, this);
 	}
@@ -33,6 +37,9 @@ public class AddTariffPlanPage {
 	@FindBy(name = "sms_charges")
 	private WebElement sms_char;
 
+	@FindBy(xpath="//section[@id='main']//h2")
+	private WebElement sucessmsg;
+	
 	public WebElement getRent() {
 		return rent;
 	}

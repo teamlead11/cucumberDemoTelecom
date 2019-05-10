@@ -15,6 +15,8 @@ public class AddCustomerPage {
 	@FindBy(xpath = "//label[text()='Done']")
 	private WebElement rdo_done;
 
+ //WebElement rdonew_done=Hook.driver.findElement(By.xpath( "//label[text()='Done']"));
+ 
 	@FindBy(id = "fname")
 	private WebElement txt_fname;
 

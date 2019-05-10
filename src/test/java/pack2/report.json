@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2800099862,
+              "duration": 3011476614,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 2911006807,
+              "duration": 654025595,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4878213754,
+              "duration": 2376387238,
               "status": "passed"
             },
             "line": 7,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 1632092191,
+              "duration": 1250986180,
               "status": "passed"
             },
             "line": 8,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 927109779,
+              "duration": 853487079,
               "status": "passed"
             },
             "line": 9,
@@ -117,7 +117,7 @@
           },
           {
             "result": {
-              "duration": 2049303652,
+              "duration": 964442490,
               "status": "passed"
             },
             "line": 15,
@@ -129,7 +129,7 @@
           },
           {
             "result": {
-              "duration": 3364321,
+              "duration": 3455643,
               "status": "passed"
             },
             "line": 16,
@@ -165,7 +165,166 @@
         "before": [
           {
             "result": {
-              "duration": 2129023010,
+              "duration": 2210388721,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.x()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "To test the submit button2",
+        "description": "",
+        "id": "to-test-the-add-customer-functionlaity;to-test-the-submit-button2",
+        "after": [
+          {
+            "result": {
+              "duration": 628885086,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.y()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3819146449,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user is in telecom home pag",
+            "match": {
+              "location": "HomePageSteps.the_user_is_in_telecom_home_pag()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 919853057,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user navigates to add customer page",
+            "match": {
+              "location": "HomePageSteps.the_user_navigates_to_add_customer_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 592646674,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user fill in the form details",
+            "match": {
+              "location": "AddCustomerSteps.the_user_fill_in_the_form_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "lname",
+                  "email",
+                  "adress",
+                  "phnum"
+                ]
+              },
+              {
+                "cells": [
+                  "testf",
+                  "testl",
+                  "test4@gmail.com",
+                  "chennai",
+                  "123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "testxf",
+                  "testxl",
+                  "test1@gmail.com",
+                  "chennai",
+                  "223456789"
+                ]
+              },
+              {
+                "cells": [
+                  "testyf",
+                  "testyl",
+                  "test2@gmail.com",
+                  "chennai",
+                  "323456789"
+                ]
+              },
+              {
+                "cells": [
+                  "testzf",
+                  "testzl",
+                  "test3@gmail.com",
+                  "chennai",
+                  "423456789"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 972297731,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The user submits the form",
+            "match": {
+              "location": "AddCustomerSteps.the_user_submits_the_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165378,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The customer should see the customer id generated.",
+            "match": {
+              "location": "AccessSteps.the_customer_should_see_the_customer_id_generated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@sprint1"
+          },
+          {
+            "name": "@us1234"
+          },
+          {
+            "name": "@xyz"
+          },
+          {
+            "name": "@addcust"
+          },
+          {
+            "name": "@smoke2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2110972337,
               "status": "passed"
             },
             "match": {
@@ -180,7 +339,7 @@
         "after": [
           {
             "result": {
-              "duration": 2922239077,
+              "duration": 2909553126,
               "status": "passed"
             },
             "match": {
@@ -193,7 +352,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4629457435,
+              "duration": 2382475869,
               "status": "passed"
             },
             "line": 33,
@@ -205,7 +364,7 @@
           },
           {
             "result": {
-              "duration": 4211358084,
+              "duration": 1282212147,
               "status": "passed"
             },
             "line": 34,
@@ -217,7 +376,7 @@
           },
           {
             "result": {
-              "duration": 856044706,
+              "duration": 920707448,
               "status": "passed"
             },
             "line": 35,
@@ -276,7 +435,7 @@
           },
           {
             "result": {
-              "duration": 1741962090,
+              "duration": 969519817,
               "status": "passed"
             },
             "line": 41,
@@ -288,7 +447,7 @@
           },
           {
             "result": {
-              "duration": 187592,
+              "duration": 136462,
               "status": "passed"
             },
             "line": 42,

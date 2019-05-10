@@ -33,8 +33,8 @@ public class AddTariffPlanSteps {
 	@Then("The user should see the success message")
 	public void the_user_should_see_the_success_message() {
 		// Write code here that turns the phrase above into concrete actions
-
-		String actual = Hook.driver.findElement(By.xpath("//section[@id='main']//h2")).getText();
+		AddTariffPlanPage details = new AddTariffPlanPage();
+		String actual = details.getSucessmsg().getText();
 		Assert.assertEquals("Congratulation you add Tariff Plan", actual);
 
 	}
