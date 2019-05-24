@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 3011476614,
+              "duration": 2930263711,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 654025595,
+              "duration": 2934161183,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2376387238,
+              "duration": 3458550795,
               "status": "passed"
             },
             "line": 7,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 1250986180,
+              "duration": 2641491484,
               "status": "passed"
             },
             "line": 8,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 853487079,
+              "duration": 847349081,
               "status": "passed"
             },
             "line": 9,
@@ -117,7 +117,7 @@
           },
           {
             "result": {
-              "duration": 964442490,
+              "duration": 1314726928,
               "status": "passed"
             },
             "line": 15,
@@ -129,7 +129,7 @@
           },
           {
             "result": {
-              "duration": 3455643,
+              "duration": 4397835,
               "status": "passed"
             },
             "line": 16,
@@ -165,7 +165,7 @@
         "before": [
           {
             "result": {
-              "duration": 2210388721,
+              "duration": 2432167313,
               "status": "passed"
             },
             "match": {
@@ -180,7 +180,7 @@
         "after": [
           {
             "result": {
-              "duration": 628885086,
+              "duration": 2913123017,
               "status": "passed"
             },
             "match": {
@@ -193,7 +193,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3819146449,
+              "duration": 3768579460,
               "status": "passed"
             },
             "line": 20,
@@ -205,7 +205,7 @@
           },
           {
             "result": {
-              "duration": 919853057,
+              "duration": 1358331150,
               "status": "passed"
             },
             "line": 21,
@@ -217,7 +217,7 @@
           },
           {
             "result": {
-              "duration": 592646674,
+              "duration": 909842976,
               "status": "passed"
             },
             "line": 22,
@@ -276,7 +276,7 @@
           },
           {
             "result": {
-              "duration": 972297731,
+              "duration": 1064469959,
               "status": "passed"
             },
             "line": 28,
@@ -288,7 +288,7 @@
           },
           {
             "result": {
-              "duration": 165378,
+              "duration": 155856,
               "status": "passed"
             },
             "line": 29,
@@ -324,7 +324,7 @@
         "before": [
           {
             "result": {
-              "duration": 2110972337,
+              "duration": 2218472810,
               "status": "passed"
             },
             "match": {
@@ -339,7 +339,7 @@
         "after": [
           {
             "result": {
-              "duration": 2909553126,
+              "duration": 2940407787,
               "status": "passed"
             },
             "match": {
@@ -352,7 +352,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2382475869,
+              "duration": 3921070643,
               "status": "passed"
             },
             "line": 33,
@@ -364,7 +364,7 @@
           },
           {
             "result": {
-              "duration": 1282212147,
+              "duration": 2661980274,
               "status": "passed"
             },
             "line": 34,
@@ -376,7 +376,7 @@
           },
           {
             "result": {
-              "duration": 920707448,
+              "duration": 906696578,
               "status": "passed"
             },
             "line": 35,
@@ -435,7 +435,7 @@
           },
           {
             "result": {
-              "duration": 969519817,
+              "duration": 1369180459,
               "status": "passed"
             },
             "line": 41,
@@ -447,7 +447,7 @@
           },
           {
             "result": {
-              "duration": 136462,
+              "duration": 155504,
               "status": "passed"
             },
             "line": 42,
@@ -527,6 +527,279 @@
         "location": {
           "line": 2,
           "column": 35
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2364187055,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.x()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Add Traffi details and get message",
+        "description": "",
+        "id": "to-test-add-tariff-plan-functionality;add-traffi-details-and-get-message;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 726225263,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.y()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8611506375,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is in add tariff plan page",
+            "match": {
+              "location": "HomePageSteps.the_user_is_in_add_tariff_plan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 547380922,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User type the form details\"200\",\"300\",\"400\",\"500\",\"609\",\"700\",\"800\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"300\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"400\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"500\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"609\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"700\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"800\"",
+                  "offset": 62
+                }
+              ],
+              "location": "AddTariffPlanSteps.user_type_the_form_details(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1431233231,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click the sumit button",
+            "match": {
+              "location": "AddTariffPlanSteps.click_the_sumit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36830809,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user should see the success message",
+            "match": {
+              "location": "AddTariffPlanSteps.the_user_should_see_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@sprint2"
+          }
+        ]
+      }
+    ],
+    "name": "To test add tariff plan functionality",
+    "description": "",
+    "id": "to-test-add-tariff-plan-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/AddtariffPlan.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2468516799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.x()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Add Traffi details and get message",
+        "description": "",
+        "id": "title-of-your-feature;add-traffi-details-and-get-message;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 668930700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.y()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7353984092,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user is in add tariff plan page",
+            "match": {
+              "location": "HomePageSteps.the_user_is_in_add_tariff_plan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 422495743,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User type the form details\"200\",\"300\",\"400\",\"500\",\"609\",\"700\",\"800\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"300\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"400\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"500\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"609\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"700\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"800\"",
+                  "offset": 62
+                }
+              ],
+              "location": "AddTariffPlanSteps.user_type_the_form_details(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1121065636,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click the sumit button",
+            "match": {
+              "location": "AddTariffPlanSteps.click_the_sumit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34620607,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should see the success message",
+            "match": {
+              "location": "AddTariffPlanSteps.the_user_should_see_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Testsprint3.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
         }
       }
     ]

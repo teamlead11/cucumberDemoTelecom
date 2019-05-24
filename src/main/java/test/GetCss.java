@@ -1,5 +1,6 @@
 package test;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,6 +16,8 @@ public class GetCss {
 		driver.get("http://demo.guru99.com/telecom/addtariffplans.php");
 		driver.manage().window().maximize();
 		System.out.println(driver.findElement(By.name("submit")).getCssValue("background-color"));
+		Assert.assertEquals("rgba(246, 117, 94, 1)",
+				driver.findElement(By.name("submit")).getCssValue("background-color"));
 	}
 
 }
