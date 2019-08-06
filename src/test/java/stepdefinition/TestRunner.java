@@ -10,7 +10,7 @@ import cucumber.api.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/features/AddtariffPlan.feature", glue = { "stepdefinition" }, plugin = {
-		"pretty", "json:target/report.json","html:target" }, tags = {  }, monochrome = true, dryRun = false, strict = false)
+		"pretty", "json:target/report.json","html:target" }, tags = { "@RT" }, monochrome = true, dryRun = false, strict = false)
 
 public class TestRunner{
 
