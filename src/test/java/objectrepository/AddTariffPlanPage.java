@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import resources.BaseClass;
 import stepdefinition.Hook;
 
 public class AddTariffPlanPage {
@@ -13,7 +14,7 @@ public class AddTariffPlanPage {
 	}
 
 	public AddTariffPlanPage() {
-		PageFactory.initElements(Hook.driver, this);
+		PageFactory.initElements(BaseClass.driver, this);
 	}
 
 	@FindBy(name = "rental")

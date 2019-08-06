@@ -1,9 +1,13 @@
 stepdefinition\AddTariffPlanSteps.class
+resources\Demo.class
 stepdefinition\AddCustomerSteps.class
 stepdefinition\Hook.class
+resources\ReadData.class
+resources\BaseClass.class
 objectrepository\AccessPage.class
 stepdefinition\AccessSteps.class
 objectrepository\AddCustomerPage.class
+resources\DesiredCap.class
 objectrepository\AddTariffPlanPage.class
 stepdefinition\TestRunner.class
 objectrepository\HomePage.class

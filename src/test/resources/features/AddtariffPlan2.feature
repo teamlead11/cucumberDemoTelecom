@@ -1,6 +1,6 @@
 #Author: your.email@your.domain.com
 @regression
-Feature: To test add tariff plan functionality
+Feature: To test add tariff plan functionality newly added
 
   @sprint2
   Scenario Outline: Add Traffi details and get message

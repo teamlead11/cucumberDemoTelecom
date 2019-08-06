@@ -4,12 +4,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import resources.BaseClass;
 import stepdefinition.Hook;
 
 public class AddCustomerPage {
 
 	public AddCustomerPage() {
-		PageFactory.initElements(Hook.driver, this);
+		PageFactory.initElements(BaseClass.driver, this);
 	}
 
 	@FindBy(xpath = "//label[text()='Done']")

@@ -1,1 +1,4 @@
 /target/
+# to ignore test runner file
+TestRunner.java
+TestRunner.class
